@@ -1,0 +1,52 @@
+body{
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+  
+}
+
+header{
+    text-align: center;
+    background-color: #0D1821;
+    padding: 3%;
+    margin-bottom: 0.5rem;
+    color:white
+}
+
+
+table, th, td,tr{
+    border: 1px solid black;
+    margin: 0 auto 40px ;
+    text-align: center;
+    padding: 1rem;
+}
+
+.club_container{
+    text-align: center;
+    border: solid black 2px;
+    margin-top:2rem ;
+    padding: 1rem;
+    
+}
+
+.club_container>img{
+  width: 40%
+}
+
+@media only screen and (min-width:1000px) {
+
+
+    .club_container>img{
+        width: 20%
+      }
+      .club_container>p{
+        font-size: 1.5rem;
+      }
+      h2,h1{
+        font-size: 3rem;
+      }
+
+}
